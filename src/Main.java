@@ -7,5 +7,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int inputtedNum = scanner.nextInt();
+
+        if (inputtedNum < 5) {
+            System.out.println("lower");
+
+        }
+
+        else {
+            System.out.println("higher than 5");
+        }
     }
 }
